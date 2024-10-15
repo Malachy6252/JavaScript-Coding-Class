@@ -371,7 +371,7 @@ switch (bill) {
          console.log(`The bill amount is ${bill}, the tip is ${tip2}, and the total value is ${total1}`);
 }*/
 
-
+/*
 
 const bill = Number(prompt(` Enter your desire amount for the purchase.`));
 bill >=50 && bill <=300? console.log(`The bill amount is ${bill}, the tip is ${bill *0.15}, and the total value is ${bill +(bill *0.15)}`):
@@ -379,3 +379,35 @@ bill >=50 && bill <=300? console.log(`The bill amount is ${bill}, the tip is ${b
 // const tip1 =bill *0.15;
 // const total = bill + tip1;
 console.log(`The bill amount is ${bill}, the tip is ${bill *0.2}, and the total value is ${bill +(bill*0.2)} `);
+
+
+'use strict';
+let hasDriversLicense = false;
+const passTest = true;
+if (passTest) hasDriversLicense = true;
+if(hasDriversLicense) console.log(`I can now take a drive`);
+*/
+
+/*
+function logger (){
+    console.log(`My name is Malachy.`)
+}
+
+logger();
+logger();
+logger();
+
+
+        //FUNCTION 
+function fruitProcessor(Apples, Oranges){
+    const juice = (`Juice with ${Apples} apples and ${Oranges} oranges.`);
+    // console.log(Apples,Oranges);
+    return juice;
+}
+const appleJuice = fruitProcessor(5,0);
+console.log(appleJuice);
+const appleOrangeJuice = fruitProcessor(5,6);
+console.log(appleOrangeJuice);*/
+
+
+
